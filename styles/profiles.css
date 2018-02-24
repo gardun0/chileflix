@@ -1,0 +1,41 @@
+img {
+    min-width: 5vh;
+    max-width: 30vh;
+    min-height: 5vh;
+    max-height: 30vh;
+    border-radius: 50%;
+}
+
+footer {
+    bottom: 40px;
+    margin-bottom: 15px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.usuario {
+    margin: 2% 8%;
+}
+
+.usuario>h2 {
+    margin: 0;
+    font-size: 1.5vw;
+    color: #7822FF;
+    font-weight: 100;
+    background-color: #7822FF;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px;
+}
+
+#usuarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
