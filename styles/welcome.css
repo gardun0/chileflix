@@ -25,25 +25,6 @@ body {
             justify-content: center;
 }
 
-.logo {
-    padding: 15px;
-    margin: 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
-
-.logo > i {
-    font-size: 3em;
-    color: #7822FF;
-}
-
-.logo > .logo-text {
-    margin-left: 5px;
-    font-family: Economica;
-    font-size: 2.2em;
-    color: #000;
-}
 
 /**** content ****/
 
