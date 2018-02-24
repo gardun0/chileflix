@@ -4,6 +4,7 @@ img {
     min-height: 5vh;
     max-height: 30vh;
     border-radius: 50%;
+    box-shadow: 10px 10px 10px grey;
 }
 
 footer {
@@ -22,7 +23,7 @@ footer {
 }
 
 .usuario>h2 {
-    margin: 0;
+    margin-top: 20px;
     font-size: 1.5vw;
     color: #7822FF;
     font-weight: 100;
@@ -32,9 +33,15 @@ footer {
     padding: 4px;
 }
 
+.usuario>h2:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
 #usuarios {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
